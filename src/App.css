@@ -1,0 +1,120 @@
+*{
+  margin: 0;
+  padding: 0;
+} 
+
+body{
+  background-color: whitesmoke;
+}
+
+
+.navBar{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+.mainPage{
+  width: 100%;
+  height: 55vh;
+}
+.mainPage p{
+  font-size: 14px;
+  font-weight:400;
+}
+.cardDiv {
+  background-image: url("./assets/img/backGround.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 250px;
+  
+}
+
+.cards{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.services{
+  color: rgb(39, 44, 59);
+}
+
+.data{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.navEle,.navEle>ul,.nav-item{
+  height: 100%;
+}
+.nav-item{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.headTextDiv{
+    text-align: center;
+    width: 37%;
+}
+.serviceHeadline{
+  text-align: center;
+    width: 55%;
+}
+.muted{
+  color: gray;
+}
+.logos{
+  display: flex;
+  width: 50%;
+  justify-content: space-between;padding: 60px 0 20px 0;
+  align-items: center;
+}
+.logos>*{
+  font-size: 35px;
+  color:rgb(132, 161, 255);
+}
+.logos>.fa-solid{
+  border-radius: 50%;
+box-shadow: 0px 0px 2px rgb(174, 174, 174);
+padding: 30px;
+}
+.logos>hr{
+  border-top: 6px dotted rgb(132, 161, 255);
+}
+.plans .fa-solid{
+  font-size: 60px;
+  color: rgb(132, 161, 255);;
+}
+.plans ul,.plans .btn-span{
+  padding: 5px 30px;
+}
+.plans button{
+  width: 85%!important;
+  background-color: rgb(28, 80, 190);
+  color: white;
+  border-radius: 3px;
+}
+.plans ul li{
+  padding: 5px;
+  display: flex;
+  color: gray;
+  justify-content: space-between;
+}
+
+.plans ul li i.colored{
+  color: rgb(132, 161, 255)!important;
+}
+
+.plans{
+  margin-top: 30px;
+}
+.logo-text{
+  display: flex;
+  width: 57%;
+  justify-content: space-between;padding: 10px 0;
+  align-items: center;
+}
